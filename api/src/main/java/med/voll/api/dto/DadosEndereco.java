@@ -1,4 +1,4 @@
-package med.voll.api.endereco;
+package med.voll.api.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
@@ -25,3 +25,4 @@ public record DadosEndereco(
 
         String numero) {
 }
+

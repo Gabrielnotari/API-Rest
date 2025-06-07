@@ -2,6 +2,8 @@ package med.voll.api.medico;
 
 import jakarta.persistence.*;
 
+import med.voll.api.dto.DadosAtualizacaoMedico;
+import med.voll.api.dto.DadosCadastroMedico;
 import med.voll.api.endereco.Endereco;
 
 @Table(name = "medicos")
